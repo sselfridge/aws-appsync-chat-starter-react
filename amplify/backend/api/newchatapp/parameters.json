@@ -1,0 +1,10 @@
+{
+    "AppSyncApiName": "newchatapp",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authcognitobd710083",
+            "Outputs.UserPoolId"
+        ]
+    }
+}
