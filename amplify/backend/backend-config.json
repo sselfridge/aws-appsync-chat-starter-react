@@ -1,0 +1,23 @@
+{
+	"auth": {
+		"cognitobd710083": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"api": {
+		"newchatapp": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"securityType": "AMAZON_COGNITO_USER_POOLS"
+			}
+		}
+	},
+	"storage": {
+		"s3b20faef2": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}

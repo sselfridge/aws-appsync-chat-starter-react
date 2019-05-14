@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "newchatapp-dev-20190514130108-authRole",
+            "UnauthRoleArn": "arn:aws:iam::450565335435:role/newchatapp-dev-20190514130108-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::450565335435:role/newchatapp-dev-20190514130108-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "newchatapp-dev-20190514130108-deployment",
+            "UnauthRoleName": "newchatapp-dev-20190514130108-unauthRole",
+            "StackName": "newchatapp-dev-20190514130108",
+            "StackId": "arn:aws:cloudformation:us-west-2:450565335435:stack/newchatapp-dev-20190514130108/04057290-7683-11e9-b909-06558479a1c6"
+        },
+        "categories": {
+            "auth": {
+                "cognitobd710083": {}
+            }
+        }
+    }
+}
